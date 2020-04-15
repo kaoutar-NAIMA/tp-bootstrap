@@ -1,0 +1,41 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .my-width{
+        width: 95% !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .my-width{
+        width: 45% !important;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .my-width{
+        width: 95% !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .my-width{
+        width: 95% !important;
+    }
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel {
+    margin-bottom: 1rem;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 75vh;
+}
